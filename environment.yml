@@ -8,21 +8,18 @@ dependencies:
   - pip
   - numpy
   - pytorch=1.4
-  - torchvision
+  - torchtext
   - cudatoolkit
-  - pydantic
-  - pillow
+  - spacy
   - tqdm
   - matplotlib
   - seaborn
   - scikit-learn
   - pandas
   - jupyterlab
-  - albumentations
   - pip:
       - transformers
       - pyyaml
       - tensorboard
-      - opencv-python
       - future
       - torchsummary
