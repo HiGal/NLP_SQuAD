@@ -2,3 +2,6 @@
 dev-evaluate-v2.0-in1
 data
 .ipynb_checkpoints
+.model
+model
+__pycache__
