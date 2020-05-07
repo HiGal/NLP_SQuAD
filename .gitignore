@@ -1,4 +1,5 @@
 *.json
+.idea
 dev-evaluate-v2.0-in1
 data
 .ipynb_checkpoints
