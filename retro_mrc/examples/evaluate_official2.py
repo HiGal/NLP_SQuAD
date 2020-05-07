@@ -8,13 +8,13 @@ that a question is unanswerable.
 import argparse
 import collections
 import json
-import numpy as np
 import os
 import re
 import string
 import sys
-import matplotlib
+
 import matplotlib.pyplot as plt
+import numpy as np
 
 
 def parse_args():
@@ -286,4 +286,3 @@ def eval_squad(data_file, pred_file, na_prob_file, na_prob_thresh, out_image_dir
         histogram_na_prob(na_probs, no_ans_qids, out_image_dir, 'noAns')
 
     return out_eval
-

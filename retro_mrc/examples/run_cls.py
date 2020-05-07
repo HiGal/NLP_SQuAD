@@ -33,11 +33,11 @@ from torch.utils.tensorboard import SummaryWriter
 from tqdm import tqdm, trange
 from transformers import WEIGHTS_NAME, AlbertConfig, AlbertForSequenceClassification, AlbertTokenizer
 
-from retro_mrc.transformers import AdamW, get_linear_schedule_with_warmup
-from retro_mrc.transformers import glue_compute_metrics as compute_metrics
-from retro_mrc.transformers import glue_convert_examples_to_features as convert_examples_to_features
-from retro_mrc.transformers import glue_output_modes as output_modes
-from retro_mrc.transformers import glue_processors as processors
+from retro_mrc.models import AdamW, get_linear_schedule_with_warmup
+from retro_mrc.models import glue_compute_metrics as compute_metrics
+from retro_mrc.models import glue_convert_examples_to_features as convert_examples_to_features
+from retro_mrc.models import glue_output_modes as output_modes
+from retro_mrc.models import glue_processors as processors
 
 logger = logging.getLogger(__name__)
 

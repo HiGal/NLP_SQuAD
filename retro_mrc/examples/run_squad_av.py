@@ -36,8 +36,8 @@ from transformers.data.processors.squad import SquadV1Processor, SquadV2Processo
     SquadResult, squad_convert_examples_to_features
 
 from retro_mrc.examples.evaluate_official2 import eval_squad
-from retro_mrc.transformers import AlbertForQuestionAnsweringAVPool, AdamW, get_linear_schedule_with_warmup
-from retro_mrc.transformers.data.metrics.squad_metrics import compute_predictions_logits
+from retro_mrc.models import AlbertForQuestionAnsweringAVPool, AdamW, get_linear_schedule_with_warmup
+from retro_mrc.models.data.metrics.squad_metrics import compute_predictions_logits
 
 logger = logging.getLogger(__name__)
 
