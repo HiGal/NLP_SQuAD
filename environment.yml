@@ -1,0 +1,28 @@
+name: pipeline
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.7
+  - pip
+  - numpy
+  - pytorch=1.4
+  - torchvision
+  - cudatoolkit
+  - pydantic
+  - pillow
+  - tqdm
+  - matplotlib
+  - seaborn
+  - scikit-learn
+  - pandas
+  - jupyterlab
+  - albumentations
+  - pip:
+      - transformers
+      - pyyaml
+      - tensorboard
+      - opencv-python
+      - future
+      - torchsummary
