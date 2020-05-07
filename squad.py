@@ -32,7 +32,7 @@ class Squad:
                     }
                     if is_impossible:
                         qas['answer'] = ""
-                        qas['answer_start'] = 0
+                        qas['answer_start'] = -1
                     else:
                         answer = answers[0]
                         qas['answer'] = answer['text']
