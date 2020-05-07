@@ -8,6 +8,8 @@ To create environment with all dependencies in the root directory run
 conda env create -f environment.yml
 conda activate pipeline
 ```
+## Data
+To download train and test SQuAD 2.0 data run script `download_dataset.sh`. It loads JSON files into `./data` directory
 
 ## Notebooks
 1. **EDA.ipynb** - explaratory data analysis on the data. Here we have tried to see how the data look like and what we are dealing with.
